@@ -1,0 +1,53 @@
+html{
+  /* overflow: scroll; */
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.massive-container {
+  /* margin: 50px; */
+  /* width: 50000px;
+  height: 50000px; */
+  background: grey;
+  position: relative;
+  transition: all .3s ease;
+  border: palevioletred 20px solid;
+}
+.hud-container{
+  position: fixed;
+  z-index: 10;
+  background: green;
+  padding: 20px;
+  border-right: rgb(249, 253, 16) 5px solid;
+  border-bottom: rgb(249, 253, 16) 5px solid;
+}
+.hud-timer-box{
+  padding: 7px 10px;
+}
+.box-overlay{
+  display: none;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.show{
+  display: flex;
+}
+.objective-btn {
+  border: none;
+  background: none;
+}
+.sizeBtn {
+  border: none;
+  margin: 5px;
+  padding: 5px;
+}
