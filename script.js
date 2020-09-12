@@ -5,7 +5,7 @@ const boxOverlay = document.querySelector('.box-overlay')
 
 let timer = 0
 let dimention = 0;
-const colorsArr = ['red', 'blue', 'green', 'orange', 'purple', 'black']
+const colorsArr = ['red', 'blue', 'green', 'orange', 'purple']
 // massiveContainer.style.width = `${dimention}px`
 // massiveContainer.style.height = `${dimention}px`
 
